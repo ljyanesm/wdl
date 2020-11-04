@@ -280,7 +280,7 @@ String newline_and_indent = """
   >newlines and indents"""
 ```
 
-The string `newline_only` below has the value `This string has a\nsingle newline but no indent` and the string `newline_and_indent` has the value ```\n   This string has\n   newlines and indents```. Note that in the second instance, the `>` character is replaced by a space.
+In this example, the string `newline_only` has the value `This string has a\nsingle newline but no indent` and the string `newline_and_indent` has the value ```\n   This string has\n   newlines and indents```. Note that in the second instance, the `>` character is replaced by a space.
 
 ### Comments
 
