@@ -259,7 +259,7 @@ $float = (([0-9]+)?\.([0-9]+)|[0-9]+\.|[0-9]+)([eE][-+]?[0-9]+)?
 |`\'`|single quote|`\x22`|
 |`\"`|double quote|`\x27`|
 
-Strings that begin and end with three adjacent single- or double-quotes may span multiple lines. By default, all whitespace between the last non-whitespace character on one line and the first non-whitespace character on the next line is replaced by a single space. For example, all four strings below are identical:
+Strings that begin and end with three adjacent single- or double-quotes may span multiple lines. By default, all whitespace between the last non-whitespace character on one line and the first non-whitespace character on the next line is replaced by a single space. For example, the values of all four declarations below are identical:
 
 ```wdl
 String single_line_dquote = "this is a single-line double-quoted string"
