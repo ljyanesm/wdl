@@ -3807,8 +3807,8 @@ If `p` is provided as:
 
 ```json
 {
-  "name", "John"
-  "age", 5
+  "name": "John",
+  "age": 5,
   "friends": ["James", "Jim"]
 }
 ```
